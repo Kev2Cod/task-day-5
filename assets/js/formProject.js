@@ -74,24 +74,24 @@ function renderProject() {
         `
     }
 
-    function getFullTime(waktu) {
-        let month = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    // function getFullTime(waktu) {
+    //     let month = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
 
-        let date = waktu.getDate();
+    //     let date = waktu.getDate();
 
-        // let monthIndex = waktu.getMonth()
-        // console.log(month[monthIndex]);
+    //     // let monthIndex = waktu.getMonth()
+    //     // console.log(month[monthIndex]);
 
-        let year = waktu.getFullYear()
-        // console.log(year);
+    //     let year = waktu.getFullYear()
+    //     // console.log(year);
 
-        let hours = waktu.getHours();
-        let minutes = waktu.getMinutes();
+    //     let hours = waktu.getHours();
+    //     let minutes = waktu.getMinutes();
 
-        let fullTime = `${date} ${month[monthIndex]} ${year} ${hours}:${minutes}`
+    //     let fullTime = `${date} ${month[monthIndex]} ${year} ${hours}:${minutes}`
 
-        return fullTime;
-    }
+    //     return fullTime;
+    // }
 
     function durationProject(startDate, endDate) {
         let timeStart = startDate;
