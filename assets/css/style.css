@@ -35,8 +35,6 @@ nav .nav-left li {
 }
 
 nav .nav-left ul li a {
-    text-decoration: none;
-    color: black;
     padding: 12px;
 }
 
@@ -56,11 +54,9 @@ nav .nav-left .active {
 }
 
 nav .nav-right a {
-    background-color: black;
     color: white;
     padding: 8px 25px;
     border-radius: 5px;
-    text-decoration: none;
 }
 
 /* End Right Navbar */
@@ -104,8 +100,6 @@ section .section-left .portfolio .button {
 }
 
 section .section-left .portfolio a {
-    text-decoration: none;
-    color: black;
     font-size: 18px;
 }
 
@@ -118,8 +112,6 @@ section .sosial-media {
 
 section .sosial-media a {
     margin-right: 20px;
-    color: black;
-    text-decoration: none;
 }
 
 /* End Icon Sosmed */
